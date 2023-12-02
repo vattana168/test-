@@ -1,0 +1,149 @@
+*{
+    gap: 2px;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    box-sizing:border-box;
+    list-style:none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.Day{
+    background-color: purple;
+    ;
+}
+table{
+    border-collapse: collapse;
+    border-color: black solid 10px 0;
+}
+table, th, td {
+    border: 1px solid white ; /* This sets a 1px solid black border for the table, th, and td elements */
+    padding: 10px; /* Optional: Add padding to the cells for spacing */
+}
+.Day > th{
+    color:white;
+}
+thead  {
+ 
+    display:table-cell;
+
+}
+/* .header h2 {
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:15px 0 15px 0;
+    color:#fff;
+    text-shadow:0px 1px 0px rgba(0,0,0,.1);
+    font-weight:400;
+  } */
+
+ h2 {
+    text-align: center;
+    background-color: purple;
+    display:inline-block;
+    width: 40%;
+    color: aliceblue;
+    margin: 0;
+    padding: 10px 0; /* Adjust padding as needed to fit the table */
+    font-size: 24px; /* Adjust font size as needed */
+ }
+
+
+tbody > tr > td:nth-child(1){
+    background-color: whitesmoke;
+    height: 50px ;
+    width: 100px; 
+    text-align: center; /* Center the text horizontally */
+  
+}
+tbody > tr > td:nth-child(2){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
+tbody > tr > td:nth-child(3){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+
+}
+tbody > tr > td:nth-child(4){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
+tbody > tr > td:nth-child(5){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
+tbody > tr > td:nth-child(6){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
+tbody > tr > td:nth-child(7){
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+}
+.number > tr > td{
+    color: purple;
+}
+.number > tr > .Day1{
+    background-color: purple;
+    color:white;
+}
+
+.number > tr > .Day2{
+    background-color: purple;
+    color:white ;
+}
+.number > tr > .Day3{
+    background-color:purple;
+    color:aliceblue;
+}
+.number > tr > .Day4{
+    background-color: purple;
+    color:white
+}
+/* .number > tr > .messi img{
+    width:100px;
+    height: 100px;
+} */
+
+.number > tr > .messi .image-container {
+    width: 100px; /* Set the width of your box */
+    height: 100px; /* Set the height of your box */
+    overflow: hidden; /* Hide any image overflow */
+  
+}
+
+.number > tr > .messi img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 150px;
+  
+}
+.number > tr >.Rashford img{
+    width: 100px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    overflow: hidden;
+  
+}
+
+
+.number {
+    margin-bottom: 10px; /* Adjust the margin size as needed */
+}
+
+.Row3 .messi{
+    background-size:100px;
+    background-repeat: no-repeat;
+}
